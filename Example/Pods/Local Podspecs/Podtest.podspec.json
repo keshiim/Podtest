@@ -1,0 +1,22 @@
+{
+  "name": "Podtest",
+  "version": "0.1.0",
+  "summary": "A short description of Podtest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Podtest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengmingjun": "keshiim@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Podtest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Podtest/Classes/**/*"
+}
