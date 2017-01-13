@@ -11,32 +11,22 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of Podtest.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        Testing Private Podspec.
                        DESC
 
   s.homepage         = 'https://github.com/keshiim/Podtest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhengmingjun' => 'keshiim@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/Podtest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/keshiim/Podtest.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.platform     = :ios, '7.0'
   s.source_files = 'Podtest/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Podtest' => ['Podtest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+    'PodTestLibrary' => ['Pod/Assets/*.png']
+  }
 end
