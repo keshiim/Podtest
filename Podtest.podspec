@@ -29,4 +29,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'PodTestLibrary' => ['Pod/Assets/*.png']
   }
+
 end
