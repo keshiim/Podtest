@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.platform     = :ios, '7.0'
   s.source_files = 'Podtest/Classes/**/*'
-#s.resources    = 'Podtest/Assets/**/*.png'
+#s.resources    = 'Podtest/Assets/**'
 
 end
