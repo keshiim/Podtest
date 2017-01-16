@@ -1,9 +1,9 @@
 {
   "name": "Podtest",
-  "version": "0.1.0",
-  "summary": "A short description of Podtest.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Podtest",
+  "version": "0.1.1",
+  "summary": "Just test pod.",
+  "description": "Testing Private Podspec. A short description of Podtest.",
+  "homepage": "https://github.com/keshiim/Podtest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "zhengmingjun": "keshiim@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Podtest.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/keshiim/Podtest.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Podtest/Classes/**/*"
+  "source_files": "Podtest/Classes/**/*",
+  "resources": "Podtest/Assets/**"
 }
